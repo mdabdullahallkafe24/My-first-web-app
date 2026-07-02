@@ -2,66 +2,177 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MD Abdullah All Kafe</title>
+    <title>MD Abdullah All Kafe | Portfolio</title>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+    <!-- ================= NAVBAR ================= -->
+
     <header>
 
-        <nav>
+        <nav class="navbar">
 
-            <h2 class="logo">KAFE</h2>
+            <!-- Logo -->
 
-            <ul>
+            <a href="index.html" class="logo">
+
+                <img src="Images/logo .png" alt="Kafe Logo">
+
+            </a>
+
+            <!-- Navigation -->
+
+            <ul class="nav-links">
 
                 <li><a href="index.html">Home</a></li>
 
-                <li><a href="about_me.html">About</a></li>
+                <li><a href="about.html">About</a></li>
 
-                <li><a href="#">Projects</a></li>
+                <li><a href="projects.html">Projects</a></li>
 
-                <li><a href="#">Skills</a></li>
+                <li><a href="skills.html">Skills</a></li>
 
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
 
             </ul>
+
+            <!-- Download Button -->
+
+            <a href="files/Abdullah_CV.pdf" class="cv-btn" download>
+
+                <i class="fa-solid fa-download"></i>
+
+                Download CV
+
+            </a>
 
         </nav>
 
     </header>
 
+
+
+    <!-- ================= HERO SECTION ================= -->
+
     <section class="hero">
 
-        <div class="hero-text">
+        <!-- Left Side -->
 
-            <h3>Hello, I'm</h3>
+        <div class="hero-left">
 
-            <h1>MD Abdullah All Kafe</h1>
+            <p class="hello">
 
-            <h2>Aspiring Full Stack Developer</h2>
+                Hello, I'm 👋
 
-            <p>
-                Passionate about Web Development, Java,
-                Spring Boot and Problem Solving.
             </p>
 
-            <button>Download CV</button>
+            <h1>
+
+                MD Abdullah All Kafe
+
+            </h1>
+
+            <h2>
+
+                Aspiring MERN Stack Developer
+
+            </h2>
+
+            <p class="description">
+
+                Passionate about MERN Stack Development,
+                Java,
+                Spring Boot,
+                Problem Solving,
+                Competitive Programming
+                and creating modern web applications.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="files/Abdullah_CV.pdf" class="btn" download>
+
+                    Download CV
+
+                </a>
+
+                <a href="contact.html" class="btn-outline">
+
+                    Contact Me
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Social Icons -->
+
+            <div class="social-icons">
+
+                <a href="#">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="#">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="#">
+
+                    <i class="fab fa-facebook"></i>
+
+                </a>
+
+                <a href="#">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+            </div>
 
         </div>
 
-        <div class="hero-image">
 
-            <img src="Images/pp.png" alt="Profile">
+
+        <!-- Right Side -->
+
+        <div class="hero-right">
+
+            <img src="Images/pp.png" alt="Profile Photo">
 
         </div>
 
     </section>
+
+
 
     <script src="script.js"></script>
 
