@@ -860,9 +860,15 @@ footer p{
 
     width:430px;
 
-    height:430px;
+    height:520px;
 
-    object-fit:cover;
+    object-fit:contain;
+
+    object-position:center top;
+
+    background:#111827;
+
+    padding:12px;
 
     border-radius:25px;
 
